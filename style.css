@@ -482,3 +482,135 @@ footer p {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    position: static;
+  }
+
+  .nav-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .nav-pages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .nav-pages a {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+
+.advertising-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-image: none;
+  height: auto;
+  min-height: 400px;
+  text-align: center;
+}
+
+.advertising-info {
+  padding: 0;
+}
+
+  .advertising-info h1 {
+    font-size: 32px;
+  }
+
+  .advertising-info h2 {
+    font-size: 24px;
+  }
+
+  .advertising-info span {
+    font-size: 18px;
+  }
+
+  .shipping-details {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .top-row,
+  .bottom-row {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .ordering {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .services {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .services-info button {
+    margin-top: 20px;
+  }
+
+  .deals-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .c {
+    width: 90%;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .SignUp-Section {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .signup-text {
+    padding: 0;
+  }
+
+  .signing-up {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    align-items: flex-start;
+  }
+
+  footer p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
