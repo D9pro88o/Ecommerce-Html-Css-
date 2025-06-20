@@ -482,7 +482,7 @@ footer p {
     margin: 0 auto;
     margin-bottom: 30px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
   nav {
     flex-direction: column;
